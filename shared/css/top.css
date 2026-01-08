@@ -925,6 +925,205 @@
   }
 }
 
+.p_top_mist{
+  width: 100vw;
+  height: 100vh;
+}
+.p_top_mist-inner{
+  /* padding: 10px; */
+  padding: 2.667vw;
+  width: 100%;
+  height: 100%;
+  /* padding-top: 60px; */
+  padding-top: 16vw;
+}
+@media (min-width: 767px) {
+  .p_top_mist-inner{
+    padding: 20px;
+    padding-top: 100px;
+  }
+}
+.p_top_mist-content{
+  width: 100%;
+  height: 100%;
+  background-image: url(../img/top/mist_bg.png);
+  background-size: cover;
+  background-position:center;
+  /* border-radius:10px;
+  padding:48px 30px; */
+  border-radius:2.667vw;
+  padding:12.8vw 8vw;
+  position:relative;
+}
+@media (min-width: 767px) {
+  .p_top_mist-content{
+    background-image: url(../img/top/mist_bg_pc.png);
+    border-radius:10px;
+    padding:0px 9.028vw;
+    display: flex;
+    background-position:center right;
+    align-items: center;
+  }
+}
+@media (min-width: 1440px) {
+  .p_top_mist-content{
+    padding:0px 130px;
+  }
+}
+.p_top_mist-block{
+
+}
+.p_top_mist-block > *:last-child{
+  margin-bottom:0px;
+}
+.p_top_mist-block-title{
+  font-family: quasimoda, sans-serif;
+  font-weight: 400;
+  /* font-size: 22px; */
+  font-size: 5.867vw;
+  line-height: 200%;
+  /* letter-spacing: 2px; */
+  letter-spacing: 0.533vw;
+  color: #FFFFFF;
+  /* margin-bottom:4px; */
+  margin-bottom:1.067vw;
+  text-align: center;
+}
+@media (min-width: 767px) {
+  .p_top_mist-block-title{
+    font-size: 40px;
+    letter-spacing: 2px;
+    margin-bottom:8px;
+    text-align: left;
+  }
+}
+.p_top_mist-block-text{
+  font-weight: 400;
+  /* font-size: 11px; */
+  font-size: 2.933vw;
+  line-height: 200%;
+  /* letter-spacing: 2px; */
+  letter-spacing: 0.533vw;
+  color: #FFFFFF;
+  /* margin-bottom:24px; */
+  margin-bottom:6.4vw;
+  text-align: center;
+}
+@media (min-width: 767px) {
+  .p_top_mist-block-text{
+    font-size: 16px;
+    letter-spacing: 2px;
+    margin-bottom:74px;
+    text-align: left;
+  }
+}
+.p_top_mist-block-linkarea{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  /* gap: 16px; */
+  gap: 4.267vw;
+}
+@media (min-width: 767px) {
+  .p_top_mist-block-linkarea{
+    flex-direction: row;
+    justify-content: flex-start;
+    gap: 20px;
+  }
+}
+.p_top_mist-block-link{
+
+}
+.p_top_mist-block-link a{
+  /* width: 149px;
+  height: 41px; */
+  width: 39.733vw;
+  height: 10.933vw;
+  background: #FFFFFF;
+  /* border-radius: 100px; */
+  border-radius: 26.667vw;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-family: quasimoda, sans-serif;
+  font-weight: 400;
+  /* font-size: 11px; */
+  font-size: 2.933vw;
+  line-height: 200%;
+  /* letter-spacing: 2px; */
+  letter-spacing: 0.533vw;
+  color: #444849;
+  margin: auto;
+}
+@media (min-width: 767px) {
+  .p_top_mist-block-link a{
+    width: 210px;
+    height: 56px;
+    border-radius: 100px;
+    font-size: 16px;
+    letter-spacing: 2px;
+  }
+}
+.p_top_mist-block-link02{
+
+}
+.p_top_mist-block-link02 a{
+  /* width: 149px;
+  height: 41px; */
+  width: 39.733vw;
+  height: 10.933vw;
+  background: #000000;
+  /* border-radius: 100px; */
+  border-radius: 26.667vw;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-weight: 400;
+  /* font-size: 11px; */
+  font-size: 2.933vw;
+  line-height: 200%;
+  /* letter-spacing: 2px; */
+  letter-spacing: 0.533vw;
+  color: #FFFFFF;
+  margin: auto;
+  position: relative;
+}
+@media (min-width: 767px) {
+  .p_top_mist-block-link02 a{
+    width: 210px;
+    height: 56px;
+    border-radius: 100px;
+    font-size: 16px;
+    line-height: 200%;
+    letter-spacing: 2px;
+  }
+}
+
+.p_top_mist-block-link02 a span:before{
+  position:absolute;
+  content:"";
+  /* width: 15px;
+  height: 15px; */
+  width: 4vw;
+  height: 4vw;
+  background-image:url(../img/common/ico_cart.svg);
+  background-size: 100%;
+  background-position: center;
+  background-repeat: no-repeat;
+  top:50%;
+  /* left:20px; */
+  left:5.333vw;
+  transform: translateY(-50%);
+}
+@media (min-width: 767px) {
+  .p_top_mist-block-link02 a span:before{
+    width: 19px;
+    height: 19px;
+    left:28px;
+  }
+}
+
 
 /*********************************************************/
 
