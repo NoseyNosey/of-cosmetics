@@ -1,0 +1,604 @@
+.p_philosophy_kv{
+    width: 100vw;
+    height: 100vh;
+    position:relative;
+}
+.p_philosophy_kv-inner{
+  width:100%;
+  height: 100%;
+  /* padding: 10px; */
+  padding: 2.667vw;
+}
+@media (min-width: 767px) {
+  .p_philosophy_kv-inner{
+    padding: 20px;
+  }
+}
+.p_philosophy_kv_image{
+  width:100%;
+  /* height: calc(100vh - 20px); */
+  /* height: calc(100vh - 5.333vw); */
+  height: 100%;
+  background-image: url(../img/philosophy/section01_bg.png);
+  background-size: cover;
+  background-position:center;
+  /* border-radius:10px; */
+  border-radius: 2.667vw;
+}
+@media (min-width: 767px) {
+  .p_philosophy_kv_image{
+    /* height: calc(100vh - 40px); */
+    height: 100%;
+    background-image: url(../img/philosophy/section01_bg_pc.png);
+    border-radius: 10px;
+  }
+}
+.p_philosophy_kv_image img{
+  width:100%;
+  height: 100%;
+  object-fit: cover;
+  object-position: center bottom;
+  display: block;
+  /* border-radius: 10px; */
+  border-radius: 2.667vw;
+}
+@media (min-width: 767px) {
+  .p_philosophy_kv_image img{
+    object-position: center;
+    border-radius: 10px;
+  }
+}
+.p_philosophy_kv_content{
+  position:absolute;
+  /* top:96px; */
+  top:25.6vw;
+  left:50%;
+  width: auto;
+  height: auto;
+  transform: translateX(-50%);
+}
+@media (min-width: 767px) {
+  .p_philosophy_kv_content{
+    top:50%;
+    transform: translateY(-50%);
+    left: 14.722vw;
+  }
+}
+@media (min-width: 1440px) {
+  .p_philosophy_kv_content{
+    left: 212px;
+  }
+}
+
+.p_philosophy_kv_content.fade-in-up3{
+  opacity: 1;
+  transform: translateX(-50%);
+}
+@media (min-width: 1440px) {
+  .p_philosophy_kv_content.fade-in-up3{
+    transform: translateY(-50%);
+  }
+}
+
+.p_philosophy_kv_content h1{
+  /* margin-bottom:8px; */
+  margin-bottom:2.133vw;
+  font-family: quasimoda, sans-serif;
+  font-style: normal;
+  font-weight: 400;
+  /* font-size: 20px; */
+  font-size: 5.333vw;
+  line-height: 200%;
+  /* letter-spacing: 2px; */
+  letter-spacing: 0.533vw;
+  color: #FFFFFF;
+  text-align: center;
+}
+@media (min-width: 767px) {
+  .p_philosophy_kv_content h1{
+    margin-bottom:8px;
+    font-size: 40px;
+    letter-spacing: 2px;
+  }
+}
+.p_philosophy_kv_content p{
+  font-weight: 400;
+  /* font-size: 11px; */
+  font-size: 2.933vw;
+  line-height: 200%;
+  text-align: center;
+  /* letter-spacing: 2px; */
+  letter-spacing: 0.533vw;
+  color: #FFFFFF;
+}
+@media (min-width: 767px) {
+  .p_philosophy_kv_content p{
+    font-size: 16px;
+    letter-spacing: 2px;
+    text-align: left;
+  }
+}
+.p_philosophy_kv_content img,
+.p_philosophy_kv_content svg{
+  /* width: 166px; */
+  width: 44.267vw;
+  display: block;
+  margin: auto;
+}
+@media (min-width: 767px) {
+  .p_philosophy_kv_content img,
+  .p_philosophy_kv_content svg{
+    width: 210px;
+  }
+}
+
+.p_philosophy_about{
+  width: 100vw;
+  height: 100vh;
+}
+.p_philosophy_about-inner{
+  width:100%;
+  height: 100%;
+  /* padding: 10px; */
+  padding: 2.667vw;
+  /* padding-top: 60px; */
+  padding-top: 16vw;
+}
+@media (min-width: 767px) {
+  .p_philosophy_about-inner{
+    padding: 20px;
+    padding-top: 100px;
+  }
+}
+.p_philosophy_about-content{
+  width: 100%;
+  height: 100%;
+  background-image: url(../img/philosophy/section02_bg.png);
+  background-size: cover;
+  background-position:center;
+  /* border-radius:10px; */
+  border-radius:2.667vw;
+  display: flex;
+  align-items: flex-start;
+  justify-content: center;
+  position:relative;
+  /* padding: 72px 30px 32px; */
+  padding: 19.2vw 8vw 8.533vw;
+}
+@media (min-width: 767px) {
+  .p_philosophy_about-content{
+    background-image: url(../img/philosophy/section02_bg_pc.png);
+    background-position:center right;
+    gap: 20px;
+    padding: 0 6.389vw;
+    gap: 58px;
+    align-items: center;
+    justify-content: flex-start;
+  }
+}
+@media (min-width: 767px) {
+  .p_philosophy_about-content{
+    padding: 0 92px;
+  }
+}
+.p_philosophy_about-title{
+  /* padding-left: 8px;
+  width: 88px;
+  height: 23px; */
+  padding-left: 2.133vw;
+  width: 23.467vw;
+  height: 6.133vw;
+  background: #FFFFFF;
+  /* border-radius: 0px 100px 100px 0px; */
+  border-radius: 0px 26.667vw 26.667vw 0px;
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+  position: absolute;
+  /* top:32px; */
+  top:8.533vw;
+  left: 0;
+}
+@media (min-width: 767px) {
+  .p_philosophy_about-title{
+    padding-left: 20px;
+    width: 148px;
+    height: 41px;
+    border-radius: 0px 100px 100px 0px;
+    top:32px;
+    left: 0;
+  }
+}
+.p_philosophy_about-title h2{
+  font-family: quasimoda, sans-serif;
+  font-style: normal;
+  font-weight: 400;
+  /* font-size: 12px; */
+  font-size: 3.2vw;
+  line-height: 1em;
+  /* letter-spacing: 1px; */
+  letter-spacing: 0.267vw;
+  color: #666666;
+}
+@media (min-width: 767px) {
+  .p_philosophy_about-title h2{
+    font-size: 20px;
+    letter-spacing: 1px;
+  }
+}
+.p_philosophy_about-main{
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  justify-content: flex-start;
+  /* gap: 12px; */
+  gap: 3.2vw;
+}
+@media (min-width: 767px) {
+  .p_philosophy_about-main{
+    justify-content: center;
+    gap: 4.167vw;
+    /* max-width: 480px; */
+    width: 100%;
+  }
+}
+@media (min-width: 1440px) {
+  .p_philosophy_about-main{
+    gap: 60px;
+  }
+}
+.p_philosophy_about-textarea{
+
+}
+.p_philosophy_about-textarea p{
+  font-style: normal;
+  font-weight: 300;
+  /* font-size: 11px; */
+  font-size: 2.933vw;
+  line-height: 2em;
+  align-items: center;
+  /* letter-spacing: 2px; */
+  letter-spacing: 0.533vw;
+  color: #FFFFFF;
+}
+@media (min-width: 767px) {
+  .p_philosophy_about-textarea p{
+    font-size: 24px;
+    letter-spacing: 2px;
+  }
+}
+.p_philosophy_about-blockarea{
+  display: flex;
+  flex-direction: column;
+  /* gap: 10px; */
+  gap: 2.667vw;
+  align-items: center;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+@media (min-width: 767px) {
+  .p_philosophy_about-blockarea{
+    flex-direction: row;
+    gap: 0 2.778vw;
+    width: 100%;
+    align-items: flex-start;
+  }
+}
+@media (min-width: 1440px) {
+  .p_philosophy_about-blockarea{
+    gap: 0 40px;
+  }
+}
+.p_philosophy_about-blockcontent{
+  display: flex;
+  /* gap: 8px; */
+  gap: 2.133vw;
+  align-items:center;
+  justify-content: flex-start;
+  /* max-width: 304px; */
+  max-width: 81.067vw;
+  width: 100%;
+  margin: auto;
+}
+@media (min-width: 767px) {
+  .p_philosophy_about-blockcontent{
+    max-width: 100%;
+    width: calc(33.333% - (5.556vw / 3));
+    margin: 0;
+    flex-direction: column;
+    gap: 2.778vw;
+    align-items:center;
+    justify-content: center;
+  }
+}
+@media (min-width: 1440px) {
+  .p_philosophy_about-blockcontent{
+    width: auto;
+    gap: 40px;
+  }
+}
+.p_philosophy_about-block{
+  /* width: 98px;
+  height: 98px; */
+  width: 26.133vw;
+  height: 26.133vw;
+  border-radius: 50%;
+  background: #FFF;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+@media (min-width: 767px) {
+  .p_philosophy_about-block{
+    width: 198px;
+    height: 198px;
+  }
+}
+/* .p_philosophy_about-block:nth-child(1){
+  margin:0 20%;
+}
+.p_philosophy_about-block:nth-child(2),
+.p_philosophy_about-block:nth-child(3){
+  position: relative;
+  top: -8px;
+}
+ @media (min-width: 767px) {
+  .p_philosophy_about-block:nth-child(2),
+  .p_philosophy_about-block:nth-child(3){
+    top: -8px;
+  }
+ } */
+.p_philosophy_about-block_inner{
+  /* width: 96px;
+  height: 96px; */
+  width: 25.6vw;
+  height: 25.6vw;
+  border-radius: 50%;
+  background: #FFF;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border:3px solid #D9DCDB;
+  flex-direction: column;
+  /* gap: 4px; */
+  gap: 1.067vw;
+}
+@media (min-width: 767px) {
+  .p_philosophy_about-block_inner{
+    width: 196px;
+    height: 196px;
+    border:3px solid #D9DCDB;
+    gap: 12px;
+  }
+ }
+.p_philosophy_about-block-text01{
+  font-family: quasimoda, sans-serif;
+  font-style: normal;
+  font-weight: 400;
+  /* font-size: 12px; */
+  font-size: 3.2vw;
+  line-height: 1.5em;
+  /* letter-spacing: 1px; */
+  letter-spacing: 0.267vw;
+  color: #666666;
+  text-align: center;
+}
+@media (min-width: 767px) {
+  .p_philosophy_about-block-text01{
+    font-size: 18px;
+    letter-spacing: 1px;
+  }
+}
+.p_philosophy_about-block-text02{
+  font-style: normal;
+  font-weight: 400;
+  /* font-size: 8px; */
+  font-size: 2.133vw;
+  line-height: 150%;
+  /* letter-spacing: 1px; */
+  letter-spacing: 0.267vw;
+  color: #ADACAC;
+  text-align: center;
+}
+@media (min-width: 767px) {
+  .p_philosophy_about-block-text02{
+    font-size: 12px;
+    letter-spacing: 1px;
+  }
+}
+
+.p_philosophy_about-blocktext{
+  /* width: calc(100% - 96px - 8px); */
+  width: calc(100% - 25.6vw - 2.133vw);
+}
+@media (min-width: 767px) {
+  .p_philosophy_about-blocktext{
+    width: auto;
+  }
+}
+.p_philosophy_about-blocktext p{
+  font-weight: 400;
+  /* font-size: 8px; */
+  font-size: 2.133vw;
+  line-height: 180%;
+  /* letter-spacing: 1px; */
+  letter-spacing: 0.267vw;
+  color: #FFFFFF;
+}
+@media (min-width: 767px) {
+  .p_philosophy_about-blocktext p{
+    font-size: 16px;
+    line-height: 200%;
+    letter-spacing: 2px;
+  }
+}
+
+.p_philosophy_section{
+  width: 100vw;
+  height: 100vh;
+}
+.p_philosophy_section-inner{
+  width:100%;
+  height: 100%;
+  /* padding: 10px; */
+  padding: 2.667vw;
+  /* padding-top: 60px; */
+  padding-top: 16vw;
+}
+@media (min-width: 767px) {
+  .p_philosophy_section-inner{
+    padding: 20px;
+    padding-top: 100px;
+  }
+}
+.p_philosophy_section-content{
+  width: 100%;
+  height: 100%;
+  background-image: url(../img/philosophy/section03_bg.png);
+  background-size: cover;
+  background-position:center;
+  /* border-radius:10px;
+  padding:40px 30px; */
+  border-radius:2.667vw;
+  padding:10.667vw 8vw;
+  position:relative;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+@media (min-width: 767px) {
+  .p_philosophy_section-content{
+    background-image: url(../img/philosophy/section03_bg_pc.png);
+    border-radius:10px;
+    padding:0 13.333vw;
+    justify-content: flex-end;
+  }
+}
+@media (min-width: 1440px) {
+  .p_philosophy_section-content{
+    padding:0 192px;
+  }
+}
+#section4 .p_philosophy_section-content{
+  background-image: url(../img/philosophy/section04_bg.png);
+  /* padding:88px 30px 28px; */
+  padding:23.467vw 8vw 7.467vw;
+  align-items: flex-start;
+}
+@media (min-width: 767px) {
+  #section4 .p_philosophy_section-content{
+    background-image: url(../img/philosophy/section04_bg_pc.png);
+    padding:13.889vw 9.028vw 2.778vw;
+    align-items:flex-start;
+    justify-content: flex-start;
+  }
+}
+@media (min-width: 1440px) {
+  #section4 .p_philosophy_section-content{
+    padding:200px 130px 40px;
+  }
+}
+#section5 .p_philosophy_section-content{
+  background-image: url(../img/philosophy/section05_bg.png);
+  /* padding:68px 30px; */
+  padding:18.133vw 8vw; 
+}
+@media (min-width: 767px) {
+  #section5 .p_philosophy_section-content{
+    background-image: url(../img/philosophy/section05_bg_pc.png);
+    padding:0 9.028vw;
+    justify-content: flex-start;
+  }
+}
+@media (min-width: 1440px) {
+  #section5 .p_philosophy_section-content{
+    padding:0 130px;
+  }
+}
+.p_philosophy_section-title{
+  /* padding-left: 8px;
+  width: 113px;
+  height: 23px; */
+  padding-left: 2.133vw;
+  width: 30.133vw;
+  height: 6.133vw;
+  background: #FFFFFF;
+  /* border-radius: 0px 100px 100px 0px; */
+  border-radius: 0px 26.667vw 26.667vw 0px;
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+  position: absolute;
+  /* top:32px; */
+  top:8.533vw;
+  left: 0;
+}
+@media (min-width: 767px) {
+  .p_philosophy_section-title{
+    padding-left: 20px;
+    width: 198px;
+    height: 41px;
+    border-radius: 0px 100px 100px 0px;
+    top:32px;
+    left: 0;
+  }
+}
+.p_philosophy_section-title h2{
+  font-family: quasimoda, sans-serif;
+  font-style: normal;
+  font-weight: 400;
+  /* font-size: 12px; */
+  font-size: 3.2vw;
+  line-height: 1em;
+  /* letter-spacing: 1px; */
+  letter-spacing: 0.267vw;
+  color: #666666;
+}
+@media (min-width: 767px) {
+  .p_philosophy_section-title h2{
+    font-size: 20px;
+    letter-spacing: 1px;
+  }
+}
+.p_philosophy_section-block{
+
+}
+.p_philosophy_section-block > *:last-child{
+  margin-bottom:0px;
+}
+.p_philosophy_section-block-title{
+  font-weight: 400;
+  /* font-size: 18px; */
+  font-size: 4.8vw;
+  line-height: 1.8em;
+  /* letter-spacing: 2px; */
+  letter-spacing: 0.533vw;
+  color: #FFFFFF;
+  /* margin-bottom:20px; */
+  margin-bottom:5.333vw;
+}
+@media (min-width: 767px) {
+  .p_philosophy_section-block-title{
+    font-size: 24px;
+    letter-spacing: 2px;
+    margin-bottom:20px;
+  }
+}
+.p_philosophy_section-block-text{
+  font-weight: 400;
+  /* font-size: 12px; */
+  font-size: 3.2vw;
+  line-height: 2em;
+  /* letter-spacing: 2px; */
+  letter-spacing: 0.533vw;
+  color: #FFFFFF;
+  /* margin-bottom:12px; */
+  margin-bottom:3.2vw;
+}
+@media (min-width: 767px) {
+  .p_philosophy_section-block-text{
+    font-size: 16px;
+    letter-spacing: 2px;
+    margin-bottom:20px;
+  }
+}
